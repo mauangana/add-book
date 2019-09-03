@@ -1,0 +1,29 @@
+body{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.card{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+.card {
+    font-family: 'Special Elite', cursive;
+}
+.card .input-field , button, h5, a, .collection-item{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 900;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+
